@@ -12,7 +12,7 @@ public class Homework32 {
         int age = sc.nextInt();
 
         if (age > 25) {
-            if (gender == 'F') {
+            if (gender == 'F') { // cant use ignorecase with charat cause it give the char value not string, Ignorecase method works for string.
                 System.out.println("Woman");
             } else {
                 System.out.println("Man");

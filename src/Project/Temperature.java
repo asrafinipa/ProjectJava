@@ -8,7 +8,7 @@ and then uses a loop to find the highest and lowest temperature for the week.*/
         int lowest = temp[0];
         int highest = temp[0];
         for(int i=0; i<temp.length; i++){
-            if(highest < temp[i]){
+            if( temp[i]> highest){
                 highest = temp[i];
             } else if(temp[i] < lowest){
                 lowest = temp[i];

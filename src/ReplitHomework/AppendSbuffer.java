@@ -9,7 +9,8 @@ public class AppendSbuffer {
          */
         StringBuffer str=new StringBuffer();
         str.append("Hello");
-        str.append("World");
+
+        str.append(" World");
         System.out.println(str.toString().toUpperCase());
     }
 }

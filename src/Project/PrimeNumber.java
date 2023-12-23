@@ -3,6 +3,7 @@ package Project;
 import java.util.Scanner;
 
 public class PrimeNumber{
+    // no idea whatso ever :(
     public static void main(String[] args) {
         // number divisible by 1 && number itself
         // number not divisible by anything other than 1 && itself
