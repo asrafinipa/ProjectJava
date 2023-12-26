@@ -1,0 +1,19 @@
+Abstraction in java
+Abstract means something which is not clear or not complete.
+we use abstraction to create methods which are incomplete
+(access modifier and signature, they don't have body)
+meaning they do not have a body. they only have method headers.
+//for polymorphism inheritance and overriding is important.
+those methods which are abstract which doesn't have body , every child will have and override .
+which methods have body don't need to have abstract
+
+Why Should we create abstract method?
+ 1)When we know for sure that every child is overriding
+  a method we don't need to have a method body.
+  2) It acts as a template when we create a method as abstract as
+  every child must provide body for that.
+  It is used to enforce methods on the child classes
+
+
+  Interfaces:
+Interface is something is common in two systems.
